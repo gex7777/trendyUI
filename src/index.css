@@ -1,3 +1,46 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@layer components {
+  .card {
+    width: theme(spacing.40);
+    background: linear-gradient(180deg, #1b1f34, #171a2e) padding-box,
+      linear-gradient(180deg, #303448, #171a2e) border-box;
+    backdrop-filter: blur(50px);
+    border: 1px solid transparent;
+  }
+
+  .icon:before {
+    content: "";
+    position: absolute;
+    width: 35.5px;
+    height: 35.5px;
+
+    top: -1px;
+    left: -29px;
+    border-width: 1px;
+    border-bottom-width: 0;
+    border-left-width: 0;
+    border-top-color: #303448;
+    border-right-color: #303448;
+    border-top-right-radius: 100%;
+    box-shadow: #14172b 8px -20px 0px 8px;
+  }
+
+  .icon:after {
+    content: "";
+    position: absolute;
+    width: 35.5px;
+    height: 35.5px;
+
+    top: -1px;
+    right: -29px;
+    border-width: 1px;
+    border-bottom-width: 0;
+    border-right-width: 0;
+    border-top-color: #303448;
+    border-left-color: #303448;
+    border-top-left-radius: 100%;
+    box-shadow: #14172b -8px -20px 0px 8px;
+  }
+}
