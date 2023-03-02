@@ -29,6 +29,7 @@ bg-[#1a1e33]
     
 }"
         ></div>
+        <div className="circle aspect-square h-[100px] bg-red-500 relative mx-auto z-20 rounded-full translate-y-[-50%] "></div>
       </div>
     </div>
   );
