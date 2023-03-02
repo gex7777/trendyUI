@@ -2,7 +2,7 @@ import React from "react";
 
 export const Card = () => {
   return (
-    <div className="card rounded-2xl w-72 h-96 ">
+    <div className="linear-br rounded-2xl w-72 h-96 ">
       <div className="icon rounded-b-full h-[60.5px] w-[121px]  relative mx-auto  border border-border-gradient-top bg-background border-t-0 ">
         {" "}
         <div

@@ -2,10 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 @layer components {
-  .card {
-    width: theme(spacing.40);
+  .linear-br {
     background: linear-gradient(180deg, #1b1f34, #171a2e) padding-box,
-      linear-gradient(180deg, #303448, #171a2e) border-box;
+      linear-gradient(180deg, #303448, #ffffff00) border-box;
     backdrop-filter: blur(50px);
     border: 1px solid transparent;
   }
