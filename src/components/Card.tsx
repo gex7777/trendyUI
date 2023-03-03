@@ -23,7 +23,7 @@ export const Card = ({ coin }: Props) => (
         className="patch-r absolute  w-2
     h-[15px]
 bg-[#1b1f34]
-    top-[21px]
+    top-[22px]
     right-[2px]
   origin-bottom
    skew-x-[153deg]
@@ -43,12 +43,16 @@ bg-[#1b1f34]
     <div className="description w-full  h-full flex flex-col justify-evenly items-center">
       <div className="title text-xs text-slate-500">{coin.name}</div>
       <div className="w-full grid place-items-center">
-        <div className="description-box-linear-br min-w-[200px] px-12 h-12 flex justify-center items-center rounded-full relative">
+        <div className="description-box-linear-br w-9/12 px-2 h-12 flex justify-center items-center rounded-full relative">
           <div className="percentage-price text-base text-indigo-50">
             {coin.price}
           </div>
-          <div className="percentage-difference text-xs absolute right-0 text-red-500 ">
-            {coin.percentage}
+          <div
+            className={` percentage-difference text-xs absolute right-0 ${
+              parseInt(coin.percentage) < 0 ? "text-red-500" : "text-[#00FFA3]"
+            }`}
+          >
+            {coin.percentage}%
           </div>
         </div>
         <div className="price text-xs text-gray-500">Price</div>
