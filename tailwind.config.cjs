@@ -3,6 +3,9 @@ module.exports = {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
+      fontFamily: {
+        tomorrow: ["Tomorrow", "sans-serif"],
+      },
       colors: {
         background: "rgba(20, 23, 43, 1)",
         "border-gradient-top": "#303448",
