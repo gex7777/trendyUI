@@ -26,6 +26,42 @@
     border: 1px solid transparent;
     backdrop-filter: blur(50px);
   }
+  .busd-linear-br {
+    background: linear-gradient(
+          180deg,
+          rgba(98, 106, 136, 0.1),
+          rgba(234, 179, 0, 0.06)
+        )
+        padding-box,
+      linear-gradient(180deg, rgba(236, 240, 255, 0.1), rgba(20, 23, 43, 1))
+        border-box;
+    border: 1px solid transparent;
+    backdrop-filter: blur(50px);
+  }
+  .eth-linear-br {
+    background: linear-gradient(
+          180deg,
+          rgba(98, 106, 136, 0.1),
+          rgba(237, 240, 244, 0.1)
+        )
+        padding-box,
+      linear-gradient(180deg, rgba(236, 240, 255, 0.1), rgba(20, 23, 43, 1))
+        border-box;
+    border: 1px solid transparent;
+    backdrop-filter: blur(50px);
+  }
+  .sol-linear-br {
+    background: linear-gradient(
+          180deg,
+          rgba(98, 106, 136, 0.1),
+          rgba(220, 31, 255, 0.1)
+        )
+        padding-box,
+      linear-gradient(180deg, rgba(236, 240, 255, 0.1), rgba(20, 23, 43, 1))
+        border-box;
+    border: 1px solid transparent;
+    backdrop-filter: blur(50px);
+  }
   .description-box-linear-br {
     background: linear-gradient(
           180deg,
