@@ -90,10 +90,10 @@
   .icon:before {
     content: "";
     position: absolute;
-    width: 36px;
+    width: 37px;
     height: 36px;
 
-    top: -2px;
+    top: -1px;
     left: -30px;
     border-width: 1px;
     border-bottom-width: 0;
@@ -107,10 +107,10 @@
   .icon:after {
     content: "";
     position: absolute;
-    width: 36px;
+    width: 37px;
     height: 36px;
 
-    top: -2px;
+    top: -1px;
     right: -30px;
     border-width: 1px;
     border-bottom-width: 0;
