@@ -2,11 +2,28 @@
 @tailwind components;
 @tailwind utilities;
 @layer components {
-  .linear-br {
-    background: linear-gradient(180deg, #1b1f34, #171a2e) padding-box,
-      linear-gradient(180deg, #303448, #ffffff00) border-box;
-    backdrop-filter: blur(50px);
+  .card-linear-br {
+    background: linear-gradient(
+          180deg,
+          rgba(28, 32, 53, 1),
+          rgba(24, 27, 47, 1)
+        )
+        padding-box,
+      linear-gradient(180deg, rgba(236, 240, 255, 0.1), rgba(20, 23, 43, 1))
+        border-box;
     border: 1px solid transparent;
+  }
+  .shib-linear-br {
+    background: linear-gradient(
+          180deg,
+          rgba(28, 32, 53, 1),
+          rgba(27, 21, 40, 1)
+        )
+        padding-box,
+      linear-gradient(180deg, rgba(236, 240, 255, 0.1), rgba(20, 23, 43, 1))
+        border-box;
+    border: 1px solid transparent;
+    backdrop-filter: blur(50px);
   }
 
   .icon:before {
@@ -20,8 +37,8 @@
     border-width: 1px;
     border-bottom-width: 0;
     border-left-width: 0;
-    border-top-color: #303448;
-    border-right-color: #303448;
+    border-top-color: #2a2d41;
+    border-right-color: #2a2d41;
     border-top-right-radius: 100%;
     box-shadow: #14172b 8px -20px 0px 8px;
   }
@@ -37,8 +54,8 @@
     border-width: 1px;
     border-bottom-width: 0;
     border-right-width: 0;
-    border-top-color: #303448;
-    border-left-color: #303448;
+    border-top-color: #2a2d41;
+    border-left-color: #2a2d41;
     border-top-left-radius: 100%;
     box-shadow: #14172b -8px -20px 0px 8px;
   }
