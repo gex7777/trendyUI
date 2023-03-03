@@ -7,7 +7,7 @@ export const Card = () => {
         {" "}
         <div
           className="patch-r  absolute  w-2
-    h-[13px]
+    h-[16px]
 
     top-[21px]
     left-[2px]
@@ -20,11 +20,11 @@ export const Card = () => {
         <div
           className="patch-l absolute  w-2
     h-[15px]
-bg-[#1a1e33]
+bg-[#1b1f34]
     top-[21px]
-    right-[2px]
+    right-[1px]
   origin-bottom
-   skew-x-[153deg]
+   skew-x-[157deg]
     z-10
     
 }"
