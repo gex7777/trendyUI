@@ -1,8 +1,25 @@
 import React from "react";
-
+type Coin = {
+  bg: string;
+  name: string;
+  price: string;
+  percentage: string;
+  tvl: string;
+  imgs: string[];
+};
+const coinObj: Coin[] = [
+  {
+    bg: "shib-linear-br",
+    name: "Shiba Inu (SHIB)",
+    price: "$0.00000001948",
+    percentage: "-8.1%",
+    tvl: "$60,000",
+    imgs: [],
+  },
+];
 export const Card = () => {
   return (
-    <div className="card-linear-br flex flex-col justify-center items-center rounded-2xl w-72 h-96 ">
+    <div className="card-linear-br flex flex-col justify-center items-center rounded-2xl w-72 h-96 font-tomorrow">
       <div className="icon rounded-b-full h-[60.5px] w-[121px]  relative mx-auto  border border-border-gradient-top bg-background border-t-0 ">
         {" "}
         <div
@@ -38,21 +55,23 @@ bg-[#1b1f34]
         </div>
       </div>
       <div className="description w-full  h-full flex flex-col justify-evenly items-center">
-        <div className="title text-slate-500">Shibu Inu</div>
+        <div className="title text-xs text-slate-500">Shibu Inu</div>
         <div className="w-full grid place-items-center">
-          <div className="description-box-linear-br w-9/12 h-12 grid place-items-center rounded-full relative">
-            <div className="percentage-price text-indigo-50">3244423423</div>
-            <div className="percentage-difference absolute right-0 text-red-500 ">
-              -6.00%
+          <div className="description-box-linear-br w-auto px-12 h-12 flex justify-center items-center rounded-full relative">
+            <div className="percentage-price text-base text-indigo-50">
+              $0.00000001948
+            </div>
+            <div className="percentage-difference text-xs absolute right-0 text-red-500 ">
+              -8.1%
             </div>
           </div>
-          <div className="price text-gray-500">Price</div>
+          <div className="price text-xs text-gray-500">Price</div>
         </div>
         <div className="w-full grid place-items-center">
           <div className="description-box-linear-br w-9/12 h-12 grid place-items-center rounded-full relative">
-            <div className="percentage-price text-indigo-50">3244423423</div>
+            <div className="tvl text-base text-indigo-50">$60,000</div>
           </div>
-          <div className="tvl text-gray-500">TVL</div>
+          <div className="tvl text-xs text-gray-500">TVL</div>
         </div>
         <div className="w-full grid place-items-center">
           <div className="popular-box bg-background px-4 py-2 rounded-full flex justify-evenly items-center gap-4">
@@ -74,7 +93,7 @@ bg-[#1b1f34]
               alt=""
             />
           </div>
-          <div className="popular text-gray-500">Popular pairs</div>
+          <div className="popular text-xs text-gray-500">Popular pairs</div>
         </div>
       </div>
     </div>
