@@ -5,7 +5,7 @@ interface Props {
 }
 export const Card = ({ coin }: Props) => (
   <div className="card-linear-br flex flex-col justify-center items-center rounded-2xl w-72 h-96 font-tomorrow">
-    <div className="icon rounded-b-full h-[60.5px] w-[121px]  relative mx-auto  border border-border-gradient-top bg-background border-t-0 ">
+    <div className="icon rounded-b-full h-[60.5px] w-[121px]  relative mx-auto  border border-[#2a2d41] bg-background border-t-0 ">
       {" "}
       <div
         className="patch-l  absolute  w-2
@@ -23,7 +23,7 @@ export const Card = ({ coin }: Props) => (
         className="patch-r absolute  w-2
     h-[15px]
 bg-[#1b1f34]
-    top-[22px]
+    top-[21px]
     right-[2px]
   origin-bottom
    skew-x-[153deg]
