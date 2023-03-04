@@ -41,7 +41,7 @@ bg-[#1b1f34]
       </div>
     </div>
     <div className="description w-full  h-full flex flex-col justify-evenly items-center">
-      <div className="title text-xs text-slate-500">{coin.name}</div>
+      <div className="title text-xs text-[#737BAE]">{coin.name}</div>
       <div className="w-full grid place-items-center">
         <div className="description-box-linear-br w-5/6 px-2 h-12 flex justify-center items-center rounded-full relative">
           <div className="percentage-price text-base text-indigo-50">
