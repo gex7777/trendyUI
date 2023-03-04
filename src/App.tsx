@@ -78,7 +78,7 @@ const coinObj: Coin[] = [
 ];
 function App() {
   return (
-    <div className="w-full min-w-max h-screen flex justify-evenly items-center bg-background">
+    <div className="w-full min-w-max h-screen px-16 gap-16 flex justify-evenly items-center bg-background">
       {coinObj.reverse().map((coin) => (
         <Card coin={coin} />
       ))}
