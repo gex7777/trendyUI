@@ -27,11 +27,7 @@
     backdrop-filter: blur(50px);
   }
   .busd-linear-br {
-    background: linear-gradient(
-          180deg,
-          rgba(98, 106, 136, 0.1),
-          rgba(234, 179, 0, 0.06)
-        )
+    background: linear-gradient(180deg, rgb(28, 31, 52), rgb(33, 33, 42))
         padding-box,
       linear-gradient(180deg, rgba(236, 240, 255, 0.1), rgba(20, 23, 43, 1))
         border-box;
@@ -51,11 +47,7 @@
     backdrop-filter: blur(50px);
   }
   .sol-linear-br {
-    background: linear-gradient(
-          180deg,
-          rgba(98, 106, 136, 0.1),
-          rgba(220, 31, 255, 0.1)
-        )
+    background: linear-gradient(180deg, rgb(29, 32, 53), rgb(41, 24, 65))
         padding-box,
       linear-gradient(180deg, rgba(236, 240, 255, 0.1), rgba(20, 23, 43, 1))
         border-box;
@@ -75,11 +67,7 @@
     backdrop-filter: blur(50px);
   }
   .description-box-linear-br {
-    background: linear-gradient(
-          180deg,
-          rgba(20, 23, 43, 1),
-          rgba(20, 23, 43, 1)
-        )
+    background: linear-gradient(180deg, rgb(28, 31, 52), rgb(33, 32, 41))
         padding-box,
       linear-gradient(180deg, rgba(236, 240, 255, 0.1), rgba(20, 23, 43, 1))
         border-box;
