@@ -45,10 +45,10 @@ Error generating stack: `+i.message+`
   origin-bottom\r
    skew-x-[25deg]\r
     z-10\r
-    bg-[#1b1f34]\r
+    bg-gradient-to-r from-[#1c2035] to-[#1c2034]\r
 }`}),j.jsx("div",{className:`patch-r absolute  w-2\r
     h-[15px]\r
-bg-[#1b1f34]\r
+bg-gradient-to-r from-[#1c2035] to-[#1c2034]\r
     top-[18px]\r
     right-0\r
   origin-bottom\r
