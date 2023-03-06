@@ -16,13 +16,13 @@ export const Card = ({ coin }: Props) => (
   origin-bottom
    skew-x-[25deg]
     z-10
-    bg-[#1b1f34]
+    bg-gradient-to-r from-[#1c2035] to-[#1c2034]
 }"
       ></div>
       <div
         className="patch-r absolute  w-2
     h-[15px]
-bg-[#1b1f34]
+bg-gradient-to-r from-[#1c2035] to-[#1c2034]
     top-[18px]
     right-0
   origin-bottom
