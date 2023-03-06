@@ -9,13 +9,13 @@ export const Card = ({ coin }: Props) => (
       {" "}
       <div
         className="patch-l  absolute  w-2
-    h-[16px]
+    h-[15px]
 
-    top-[21px]
-    left-[2px]
+    top-[18px]
+    left-0
   origin-bottom
    skew-x-[25deg]
-    z-1
+    z-10
     bg-[#1b1f34]
 }"
       ></div>
@@ -23,10 +23,10 @@ export const Card = ({ coin }: Props) => (
         className="patch-r absolute  w-2
     h-[15px]
 bg-[#1b1f34]
-    top-[21px]
-    right-[2px]
+    top-[18px]
+    right-0
   origin-bottom
-   skew-x-[153deg]
+   skew-x-[155deg]
     z-10
     
 }"

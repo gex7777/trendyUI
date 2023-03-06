@@ -78,8 +78,8 @@
   .icon:before {
     content: "";
     position: absolute;
-    width: 37px;
-    height: 36px;
+    width: 36px;
+    height: 34px;
 
     top: -1px;
     left: -30px;
@@ -95,8 +95,8 @@
   .icon:after {
     content: "";
     position: absolute;
-    width: 37px;
-    height: 36px;
+    width: 36px;
+    height: 34px;
 
     top: -1px;
     right: -30px;
